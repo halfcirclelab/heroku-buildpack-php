@@ -80,10 +80,6 @@ chmod +x boot.sh
 # clean the cache
 rm -rf $CACHE_DIR
 
-# Migrate latest database via Yii
-chmod +x ~/www/deploy.sh
-~/www/deploy.sh
-
 # WIN
 echo ""
 echo "  |               000   000                "
