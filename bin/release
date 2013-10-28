@@ -1,13 +1,8 @@
 #!/usr/bin/env bash
 # bin/release <build-dir>
 
-# Migrate latest database via Yii
-chmod +x ~/www/deploy.sh
-~/www/deploy.sh
-
 cat <<EOF
 ---
 default_process_types:
   web: sh boot.sh
 EOF
-
